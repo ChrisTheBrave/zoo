@@ -19,7 +19,7 @@
       super(name, dateOfBirth);
 
       this.numberOfEggs = numberOfEggs;
-      this.birdSize = birdSizeInFeet;
+      this.birdSizeInFeet = birdSizeInFeet;
       this.children = [];
       console.log('Creating a Brahma');
     }
