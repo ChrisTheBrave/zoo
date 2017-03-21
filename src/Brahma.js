@@ -39,7 +39,7 @@
     }
 
     toString() {
-      return this.name + ' was born on ' + this.dateOfBirth + ' and the scientific name of the Brahma is ' + Brahma.scientificBrahmaName() + ' .'
+      return this.name + ' was born on ' + this.dateOfBirth + ' and the scientific name of the Brahma is ' + Brahma.scientificBrahmaName() + ' .';
     }
 
   };
