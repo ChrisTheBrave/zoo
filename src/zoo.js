@@ -26,7 +26,9 @@
   console.log(pepita.giveBirth('osito'));
   console.log(pepita.giveBirth('flash'));
 
-}
-
-
-)();
+  try {
+  new Animal();
+  } catch(err) {
+    console.warn(err.message);
+  }
+})();
