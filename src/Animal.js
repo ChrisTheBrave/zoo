@@ -5,6 +5,12 @@
 
   window.zoo.Animal = class Animal {
 
+    /**
+     * Creates new Animal
+     * @param {String} name Animal name
+     * @param {Date} date Animal birth date
+     * @return {void}
+     */
     constructor(name, dateOfBirth)  {
       this.name = name;
 
@@ -24,6 +30,10 @@
       return this.date;
       // console.log(this.date);
     }
+    /**
+     * Get animal age in whole years
+     * @return {Number}
+     */
     getAge() {
       return (new Date()).getFullYear() - this.dateOfBirth.getFullYear();
     }

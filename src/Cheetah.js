@@ -10,7 +10,7 @@
      * Creates the Cheetah function
      * @param {String} name  Name of the cheetah
      * @param {Number} number Date cheetah was born
-     * @param {Number} number Number of cubs cheetah can birth
+     * @param {Number} number Number of cubs cheetah cubs can birth
      * @param {Number} number MPH cheetah can run
      * @return {void}
      */
