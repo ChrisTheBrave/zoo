@@ -24,7 +24,7 @@
       console.log('Creating a Brahma');
     }
     giveBirth(name) {
-      let babyBrahma = new window.zoo.Brahma(name, new Date('10/3/20012'), 3, 1.5);
+      let babyBrahma = new window.zoo.Brahma(name, new Date('10/3/2012'), 3, 1.5);
       this.children.push(babyBrahma);
       return babyBrahma;
     }

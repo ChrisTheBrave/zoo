@@ -24,7 +24,7 @@
     }
 
     giveBirth(name) {
-      let babyCheetah = new window.zoo.Cheetah(name, new Date('10/3/20016'), 5, 65);
+      let babyCheetah = new window.zoo.Cheetah(name, new Date('10/3/2016'), 5, 65);
       this.children.push(babyCheetah);
       return babyCheetah;
     }
