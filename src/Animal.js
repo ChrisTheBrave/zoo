@@ -7,6 +7,10 @@
 
     constructor(name, dateOfBirth)  {
       this.name = name;
+
+      if (!(dateOfBirth instanceof Date)) {
+        dateOfBirth = new Date();
+      }
       this.date = dateOfBirth;
       console.log('Creating a new animal!');
 
@@ -19,6 +23,9 @@
     get dateOfBirth(){
       return this.date;
       // console.log(this.date);
+    }
+    getAge() {
+      return (new Date()).getFullYear() - this.dateOfBirth.getFullYear();
     }
     changeAnimalName(newAnimalName) {
       this.name = newAnimalName;
