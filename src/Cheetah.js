@@ -35,12 +35,12 @@
      *@param {String} name
      *@return {String}
      */
-    static scientificName() {
+    static scientificCheetahName() {
       return 'Acinonyx jubatus';
     }
 
     toString() {
-      return this.name + ' was born on ' + this.dateOfBirth;
+      return this.name + ' was born on ' + this.dateOfBirth + ' and the scientific name of the Cheetah is ' + Cheetah.scientificCheetahName() + ' .';
     }
   };
 

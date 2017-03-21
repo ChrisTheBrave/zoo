@@ -30,17 +30,18 @@
     }
 
     /**
-     *Creates scientific name of Cheetah
+     *Creates scientific name of Brahma
      * @param {String} name
      * @return {String}
      */
-    static scientificName() {
+    static scientificBrahmaName() {
       return 'Gallus gallus domesticus';
     }
 
     toString() {
-      return this.name + ' was born on ' + this.dateOfBirth;
+      return this.name + ' was born on ' + this.dateOfBirth + ' and the scientific name of the Brahma is ' + Brahma.scientificBrahmaName() + ' .'
     }
+
   };
 
 
